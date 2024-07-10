@@ -163,11 +163,10 @@ p {
     font-size: 1.2em;
 }
 
-
 .correct {
-    background-color: lightgreen;
+    background-color: #d8f0db;
 }
 
 .incorrect {
-    background-color: #ffcccc;
+    background-color: #f0dbd8;
 }

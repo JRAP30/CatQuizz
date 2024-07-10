@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL:wght@100..400&family=Playwrite+CL:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+NO:wght@100..400&display=swap"
+        rel="stylesheet">
+    <title>Cat Quiz</title>
+</head>
+
+<body>
+    <div id="initial-page">
+        <div id="welcome">
+            <h1>Cat Quiz!</h1>
+            <button id="start-game-button">Let's play?</button>
+        </div>
+    </div>
+
+    <div id="quiz-container">
+        <h2 id="question"> </h2>
+        <div id="answer-button">
+            <button class="answer-button" data-answer="1"></button>
+            <br>
+            <button class="answer-button" data-answer="2"></button>
+            <br>
+            <button class="answer-button" data-answer="3"></button>
+            <br>
+            <button class="answer-button" data-answer="4"></button>
+            <br>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <div id="result-container">
+        <div id="result">
+            <h3 id="final-result"> </h3>
+            <div id="paw-result">
+                <h4 id="final-result-number"></h4>
+                <img src="https://cdn-icons-png.flaticon.com/512/12/12638.png" alt="paw">
+            </div>
+        </div>
+        <button id="show-incorrect-answers-button">Show Incorrect Answers</button>
+        <div id="incorrect-answers"></div>
+        <button id="play-again-button">Play Again</button>
+    </div>
+</body>
+
+</html>

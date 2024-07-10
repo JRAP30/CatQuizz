@@ -1,0 +1,173 @@
+/* body {
+    margin: 0;
+    font-family: "Playwrite NO", cursive;
+}
+
+#initial-page {
+    background-image: url("https://worldofprintables.com/wp-content/uploads/2023/07/Kawaii-Kitten-Cute-Cat-Wallpaper.jpg");
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#welcome {
+    margin: auto;
+    width: 50%;
+    min-height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Playwrite GB S", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://worldofprintables.com/wp-content/uploads/2023/07/Kawaii-Kitten-Cute-Cat-Wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#initial-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#welcome {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    gap: 20px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3em;
+
+}
+
+h2 {
+    margin: 0px;
+    font-size: 2em;
+    max-width: 500px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+#start-game-button {
+    font-family: "Playwrite GB S", cursive;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
+#quiz-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    gap: 20px;
+    text-align: center;
+}
+
+#answer-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-button,
+#show-incorrect-answers-button,
+#play-again-button {
+    font-family: "Playwrite GB S", cursive;
+    padding: 10px;
+    border-radius: 15px;
+    border-width: 3px;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+#result-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #817d7e;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #817d7e;
+    /* gap: 10px; */
+    text-align: center;
+}
+
+#paw-result {
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#show-incorrect-answers-button,
+#play-again-button{
+    font-size: 1.2em;
+}
+
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: #ffcccc;
+}

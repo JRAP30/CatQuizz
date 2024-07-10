@@ -7,7 +7,7 @@ const allQuestions = [
     { question: "What percentage of a cat's bones are in its tail?", answers: ["5%", "10%", "15%", "20%"], correctAnswer: 1 },
     { question: "Approximately how many muscles does a cat have in each ear?", answers: ["5", "10", "20", "30"], correctAnswer: 2 },
     { question: "Which ancient civilization first domesticated cats?", answers: ["Egyptian", "Greek", "Roman", "Persian"], correctAnswer: 0 },
-    { question: "What is a cat's top running speed?", answers: ["15 mph", "20 mph", "25 mph", "20 mph"], correctAnswer: 2 },
+    { question: "What is a cat's top running speed?", answers: ["15 mph", "20 mph", "25 mph", "10 mph"], correctAnswer: 2 },
     { question: "What is the phenomenon called when a cat rubs its head against objects or people?", answers: ["Bunting", "Snuzzling", "Nuzzling", "Rubbism"], correctAnswer: 0 }
 ];
 
